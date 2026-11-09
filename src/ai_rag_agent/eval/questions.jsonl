@@ -1,0 +1,18 @@
+{"id": "q01", "type": "fact", "question": "星海手环 S1 多少钱？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["299"]}
+{"id": "q02", "type": "fact", "question": "星海手表 W2 的续航是多久？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["7 天", "7天"]}
+{"id": "q03", "type": "fact", "question": "表带 M 码适合多大的腕围？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["16", "18"]}
+{"id": "q04", "type": "fact", "question": "签收后多少天内可以无理由退货？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["7 天", "7天"]}
+{"id": "q05", "type": "fact", "question": "因为质量问题退换货，运费由谁承担？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["公司"]}
+{"id": "q06", "type": "fact", "question": "主机的保修期是多长时间？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["12 个月", "12个月"]}
+{"id": "q07", "type": "fact", "question": "配件保修多久？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["6 个月", "6个月"]}
+{"id": "q08", "type": "fact", "question": "哪些情况不在保修范围内？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["进水", "拆机"]}
+{"id": "q09", "type": "fact", "question": "客服热线的电话号码是多少？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["400-000-0000"]}
+{"id": "q10", "type": "fact", "question": "寄修地址在哪个城市？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["苏州"]}
+{"id": "q11", "type": "fact", "question": "增值税专用发票审核通过后几天寄出？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["5 个工作日", "5个工作日"]}
+{"id": "q12", "type": "fact", "question": "体重 70 公斤的人该选哪个尺码的表带？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["腕围"]}
+{"id": "n01", "type": "refuse", "question": "星海科技的 CEO 是谁？", "expected_source": null, "expected_keywords": []}
+{"id": "n02", "type": "refuse", "question": "手环支持多少种运动模式？", "expected_source": null, "expected_keywords": []}
+{"id": "n03", "type": "refuse", "question": "支持上门维修吗？", "expected_source": null, "expected_keywords": []}
+{"id": "m01", "type": "multi_turn", "question": "那运费谁出？", "history": ["你们的退换货政策是什么？", "签收后 7 天内可无理由退货，质量问题产生的运费由公司承担。"], "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["客户", "公司"]}
+{"id": "h01", "type": "hard", "question": "手环和手表哪个续航更长？两者相差几天？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["手环", "7天"]}
+{"id": "h02", "type": "hard", "question": "我定制了刻字表带，收到第二天不想要了，可以退吗？", "expected_source": "星海科技-产品服务手册.txt", "expected_keywords": ["定制", "不支持"]}

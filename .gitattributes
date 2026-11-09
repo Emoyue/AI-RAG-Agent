@@ -1,0 +1,2 @@
+# 统一换行符为 LF，避免 Windows 提交时整文件显示为"全部改动"
+* text=auto eol=lf

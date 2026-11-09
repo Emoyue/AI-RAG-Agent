@@ -1,0 +1,28 @@
+[project]
+name = "ai-rag-agent"
+version = "0.1.0"
+description = "基于 LangChain + Chroma + 阿里云百炼的企业知识库问答（RAG）应用"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "dashscope>=2.0.3",
+    "langchain>=1.4.7",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-text-splitters>=1.0.0",
+    "pypdf>=6.21.4",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.67.0",
+]
+
+[project.scripts]
+ai-rag-agent = "ai_rag_agent:main"
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
